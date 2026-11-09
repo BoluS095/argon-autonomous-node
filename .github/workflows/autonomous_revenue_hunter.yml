@@ -1,9 +1,9 @@
 name: Autonomous 24/7 Escrow & Alpha Hunter
 
-on:
+'on':
   schedule:
-    - cron: '0 */2 * * *'  # Runs automatically every 2 hours 24/7
-  workflow_dispatch:
+    - cron: '0 */2 * * *'
+  workflow_dispatch: {}
   push:
     branches:
       - main
