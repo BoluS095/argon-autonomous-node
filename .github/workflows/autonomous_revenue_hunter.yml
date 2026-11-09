@@ -1,0 +1,37 @@
+name: Autonomous 24/7 Escrow & Alpha Hunter
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # Runs automatically every 2 hours 24/7
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Cloud Bounty & Alpha Hunter
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python hunter_cloud.py
+
+      - name: Commit & Push Updated Radar
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action [Argon-Autonomous]"
+          git add live_bounties.json LATEST_ESCROW_RADAR.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(radar): automated 24/7 bounty & alpha harvest [skip ci]" && git push)
