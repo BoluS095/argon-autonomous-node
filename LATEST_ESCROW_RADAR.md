@@ -1,5 +1,5 @@
 # 💎 LIVE ESCROW BOUNTY RADAR — $16,280.00 USD AVAILABLE
-**Last Sync:** `2026-11-09T16:27:22.383401+00:00` | **Active Bounties:** `12` | **Node:** `BoluS095/argon-autonomous-node`
+**Last Sync:** `2026-11-09T16:33:55.187772+00:00` | **Active Bounties:** `12` | **Node:** `BoluS095/argon-autonomous-node`
 
 | Repo & Issue | Payout (USD) | Escrow Link |
 | :--- | :--- | :--- |
@@ -23,5 +23,5 @@
 | Next French Presidential Election — *Will Jordan Bardella win the 2027 French presidential election?* | 1.6% | 5.0% | +3.5% |
 | Next French Presidential Election — *Will Éric Zemmour win the 2027 French presidential election?* | 0.4% | 5.0% | +4.7% |
 | Next French Presidential Election — *Will Édouard Philippe win the 2027 French presidential election?* | 7.5% | 8.4% | +0.9% |
-| Next French Presidential Election — *Will David Lisnard win the 2027 French presidential election?* | 13.0% | 14.5% | +1.6% |
+| Next French Presidential Election — *Will David Lisnard win the 2027 French presidential election?* | 11.8% | 13.3% | +1.4% |
 | Next French Presidential Election — *Will Xavier Bertrand win the 2027 French presidential election?* | 0.1% | 5.0% | +5.0% |

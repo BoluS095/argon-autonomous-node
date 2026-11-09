@@ -1,6 +1,6 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-09T16:27:22.383401+00:00",
+  "timestamp": "2026-11-09T16:33:55.187772+00:00",
   "total_active_bounties": 12,
   "total_escrow_usd": 16280.0,
   "bounties": [
@@ -133,9 +133,9 @@
     {
       "event": "Next French Presidential Election",
       "question": "Will David Lisnard win the 2027 French presidential election?",
-      "market_prob": 0.1295,
-      "model_prob": 0.145,
-      "edge_pct": 1.55
+      "market_prob": 0.1185,
+      "model_prob": 0.133,
+      "edge_pct": 1.45
     },
     {
       "event": "Next French Presidential Election",
