@@ -34,4 +34,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action [Argon-Autonomous]"
           git add live_bounties.json LATEST_ESCROW_RADAR.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(radar): automated 24/7 bounty & alpha harvest [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(radar): automated 24/7 bounty & alpha harvest [skip ci]" && git pull --rebase origin main && git push)
