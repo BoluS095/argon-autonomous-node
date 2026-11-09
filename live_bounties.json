@@ -1,6 +1,6 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-09T16:33:55.187772+00:00",
+  "timestamp": "2026-11-09T16:52:12.927214+00:00",
   "total_active_bounties": 12,
   "total_escrow_usd": 16280.0,
   "bounties": [
@@ -112,16 +112,16 @@
     {
       "event": "Next French Presidential Election",
       "question": "Will Jordan Bardella win the 2027 French presidential election?",
-      "market_prob": 0.0155,
+      "market_prob": 0.0185,
       "model_prob": 0.05,
-      "edge_pct": 3.45
+      "edge_pct": 3.15
     },
     {
       "event": "Next French Presidential Election",
       "question": "Will Éric Zemmour win the 2027 French presidential election?",
-      "market_prob": 0.0035,
+      "market_prob": 0.003,
       "model_prob": 0.05,
-      "edge_pct": 4.65
+      "edge_pct": 4.7
     },
     {
       "event": "Next French Presidential Election",
@@ -133,9 +133,9 @@
     {
       "event": "Next French Presidential Election",
       "question": "Will David Lisnard win the 2027 French presidential election?",
-      "market_prob": 0.1185,
-      "model_prob": 0.133,
-      "edge_pct": 1.45
+      "market_prob": 0.1165,
+      "model_prob": 0.13,
+      "edge_pct": 1.35
     },
     {
       "event": "Next French Presidential Election",
