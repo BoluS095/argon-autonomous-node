@@ -1,8 +1,8 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-10T01:21:29.646157+00:00",
+  "timestamp": "2026-11-10T09:29:34.998664+00:00",
   "total_active_bounties": 12,
-  "total_escrow_usd": 16480.0,
+  "total_escrow_usd": 15950.0,
   "bounties": [
     {
       "id": 6147485181,
@@ -11,14 +11,6 @@
       "payout_usd": 10000.0,
       "url": "https://github.com/Trauma-Station/Trauma-Station/issues/5225",
       "updated_at": "2026-11-07T18:05:11Z"
-    },
-    {
-      "id": 5888709112,
-      "repo": "SecureBananaLabs/bug-bounty",
-      "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
-      "payout_usd": 780.0,
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13331",
-      "updated_at": "2026-10-17T21:49:26Z"
     },
     {
       "id": 6131350727,
@@ -74,7 +66,7 @@
       "title": "💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reass",
       "payout_usd": 450.0,
       "url": "https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1",
-      "updated_at": "2026-11-09T21:12:01Z"
+      "updated_at": "2026-11-10T05:42:23Z"
     },
     {
       "id": 6096983816,
@@ -99,50 +91,58 @@
       "payout_usd": 250.0,
       "url": "https://github.com/alfrexo95/bounty-bot/issues/54",
       "updated_at": "2026-11-02T06:39:56Z"
+    },
+    {
+      "id": 5908234811,
+      "repo": "limitlessprojects/Go-Hybrid",
+      "title": "[wildcard] Make FFI claims proof-carrying: verify boundary contracts against the linked Ru",
+      "payout_usd": 250.0,
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/610",
+      "updated_at": "2026-11-03T04:33:52Z"
     }
   ],
   "polymarket_signals": [
     {
-      "event": "Bills vs. Vikings",
-      "question": "Bills vs. Vikings",
-      "market_prob": 0.605,
-      "model_prob": 0.557,
-      "edge_pct": 4.8
+      "event": "Nuggets vs. Rockets",
+      "question": "Nuggets vs. Rockets",
+      "market_prob": 0.0,
+      "model_prob": 0.05,
+      "edge_pct": 5.0
     },
     {
-      "event": "Bills vs. Vikings",
-      "question": "Spread: Bills (-1.5)",
-      "market_prob": 0.565,
-      "model_prob": 0.52,
-      "edge_pct": 4.5
+      "event": "Nuggets vs. Rockets",
+      "question": "Spread: Rockets (-4.5)",
+      "market_prob": 1.0,
+      "model_prob": 0.92,
+      "edge_pct": 8.0
     },
     {
-      "event": "Bills vs. Vikings",
-      "question": "Spread: Bills (-2.5)",
-      "market_prob": 0.545,
-      "model_prob": 0.501,
-      "edge_pct": 4.4
+      "event": "Nuggets vs. Rockets",
+      "question": "Nuggets vs. Rockets: O/U 228.5",
+      "market_prob": 0.0,
+      "model_prob": 0.05,
+      "edge_pct": 5.0
     },
     {
-      "event": "Bills vs. Vikings",
-      "question": "Spread: Bills (-3.5)",
-      "market_prob": 0.445,
-      "model_prob": 0.498,
-      "edge_pct": 5.3
+      "event": "Nuggets vs. Rockets",
+      "question": "Spread: Rockets (-3.5)",
+      "market_prob": 1.0,
+      "model_prob": 0.92,
+      "edge_pct": 8.0
     },
     {
-      "event": "Bills vs. Vikings",
-      "question": "Spread: Bills (-4.5)",
-      "market_prob": 0.41,
-      "model_prob": 0.459,
-      "edge_pct": 4.9
+      "event": "Nuggets vs. Rockets",
+      "question": "Nuggets vs. Rockets: O/U 226.5",
+      "market_prob": 0.0,
+      "model_prob": 0.05,
+      "edge_pct": 5.0
     },
     {
-      "event": "Bills vs. Vikings",
-      "question": "Spread: Bills (-5.5)",
-      "market_prob": 0.395,
-      "model_prob": 0.442,
-      "edge_pct": 4.7
+      "event": "Nuggets vs. Rockets",
+      "question": "Spread: Rockets (-5.5)",
+      "market_prob": 1.0,
+      "model_prob": 0.92,
+      "edge_pct": 8.0
     }
   ]
 }

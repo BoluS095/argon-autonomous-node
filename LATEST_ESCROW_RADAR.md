@@ -1,10 +1,9 @@
-# 💎 LIVE ESCROW BOUNTY RADAR — $16,480.00 USD AVAILABLE
-**Last Sync:** `2026-11-10T01:21:29.646157+00:00` | **Active Bounties:** `12` | **Node:** `BoluS095/argon-autonomous-node`
+# 💎 LIVE ESCROW BOUNTY RADAR — $15,950.00 USD AVAILABLE
+**Last Sync:** `2026-11-10T09:29:34.998664+00:00` | **Active Bounties:** `12` | **Node:** `BoluS095/argon-autonomous-node`
 
 | Repo & Issue | Payout (USD) | Escrow Link |
 | :--- | :--- | :--- |
 | **Trauma-Station/Trauma-Station**: [BOUNTY] huge important bounty bounty bounty | **$10,000.00** | [View Issue ↗](https://github.com/Trauma-Station/Trauma-Station/issues/5225) |
-| **SecureBananaLabs/bug-bounty**: PAYMENT: USDC on Base wallet (Opire/Algora deliveries) | **$780.00** | [View Issue ↗](https://github.com/SecureBananaLabs/bug-bounty/issues/13331) |
 | **alfrexo95/bounty-bot**: 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): [Bounty] [Bounty | **$750.00** | [View Issue ↗](https://github.com/alfrexo95/bounty-bot/issues/69) |
 | **alfrexo95/bounty-bot**: 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): 💰 Bounty Seguro  | **$750.00** | [View Issue ↗](https://github.com/alfrexo95/bounty-bot/issues/77) |
 | **alfrexo95/bounty-bot**: 💰 Bounty Seguro ($$750): 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro  | **$750.00** | [View Issue ↗](https://github.com/alfrexo95/bounty-bot/issues/76) |
@@ -15,13 +14,14 @@
 | **alfrexo95/bounty-bot**: 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): [Bounty] 💰 Bount | **$250.00** | [View Issue ↗](https://github.com/alfrexo95/bounty-bot/issues/60) |
 | **alfrexo95/bounty-bot**: 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro  | **$250.00** | [View Issue ↗](https://github.com/alfrexo95/bounty-bot/issues/58) |
 | **alfrexo95/bounty-bot**: 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): [Bounty] Preserv | **$250.00** | [View Issue ↗](https://github.com/alfrexo95/bounty-bot/issues/54) |
+| **limitlessprojects/Go-Hybrid**: [wildcard] Make FFI claims proof-carrying: verify boundary contracts against the linked Ru | **$250.00** | [View Issue ↗](https://github.com/limitlessprojects/Go-Hybrid/issues/610) |
 
 ## 📈 Polymarket Quant Alpha Feed ($0.10 USDC / x402)
 | Event / Question | Market Prob | Model Prob | Edge |
 | :--- | :--- | :--- | :--- |
-| Bills vs. Vikings — *Bills vs. Vikings* | 60.5% | 55.7% | +4.8% |
-| Bills vs. Vikings — *Spread: Bills (-1.5)* | 56.5% | 52.0% | +4.5% |
-| Bills vs. Vikings — *Spread: Bills (-2.5)* | 54.5% | 50.1% | +4.4% |
-| Bills vs. Vikings — *Spread: Bills (-3.5)* | 44.5% | 49.8% | +5.3% |
-| Bills vs. Vikings — *Spread: Bills (-4.5)* | 41.0% | 45.9% | +4.9% |
-| Bills vs. Vikings — *Spread: Bills (-5.5)* | 39.5% | 44.2% | +4.7% |
+| Nuggets vs. Rockets — *Nuggets vs. Rockets* | 0.0% | 5.0% | +5.0% |
+| Nuggets vs. Rockets — *Spread: Rockets (-4.5)* | 100.0% | 92.0% | +8.0% |
+| Nuggets vs. Rockets — *Nuggets vs. Rockets: O/U 228.5* | 0.0% | 5.0% | +5.0% |
+| Nuggets vs. Rockets — *Spread: Rockets (-3.5)* | 100.0% | 92.0% | +8.0% |
+| Nuggets vs. Rockets — *Nuggets vs. Rockets: O/U 226.5* | 0.0% | 5.0% | +5.0% |
+| Nuggets vs. Rockets — *Spread: Rockets (-5.5)* | 100.0% | 92.0% | +8.0% |
