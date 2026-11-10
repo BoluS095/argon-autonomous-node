@@ -1,8 +1,8 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-09T16:52:12.927214+00:00",
+  "timestamp": "2026-11-10T01:21:29.646157+00:00",
   "total_active_bounties": 12,
-  "total_escrow_usd": 16280.0,
+  "total_escrow_usd": 16480.0,
   "bounties": [
     {
       "id": 6147485181,
@@ -69,6 +69,14 @@
       "updated_at": "2026-11-02T12:46:35Z"
     },
     {
+      "id": 6294822260,
+      "repo": "IES-BoilerRoom/cuda-warp-allreduce-verifier",
+      "title": "💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reass",
+      "payout_usd": 450.0,
+      "url": "https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1",
+      "updated_at": "2026-11-09T21:12:01Z"
+    },
+    {
       "id": 6096983816,
       "repo": "alfrexo95/bounty-bot",
       "title": "💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): [Bounty] 💰 Bount",
@@ -91,58 +99,50 @@
       "payout_usd": 250.0,
       "url": "https://github.com/alfrexo95/bounty-bot/issues/54",
       "updated_at": "2026-11-02T06:39:56Z"
-    },
-    {
-      "id": 5908234811,
-      "repo": "limitlessprojects/Go-Hybrid",
-      "title": "[wildcard] Make FFI claims proof-carrying: verify boundary contracts against the linked Ru",
-      "payout_usd": 250.0,
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/610",
-      "updated_at": "2026-11-03T04:33:52Z"
     }
   ],
   "polymarket_signals": [
     {
-      "event": "Next French Presidential Election",
-      "question": "Will Marine Le Pen win the 2027 French presidential election?",
-      "market_prob": 0.4495,
-      "model_prob": 0.503,
-      "edge_pct": 5.35
+      "event": "Bills vs. Vikings",
+      "question": "Bills vs. Vikings",
+      "market_prob": 0.605,
+      "model_prob": 0.557,
+      "edge_pct": 4.8
     },
     {
-      "event": "Next French Presidential Election",
-      "question": "Will Jordan Bardella win the 2027 French presidential election?",
-      "market_prob": 0.0185,
-      "model_prob": 0.05,
-      "edge_pct": 3.15
+      "event": "Bills vs. Vikings",
+      "question": "Spread: Bills (-1.5)",
+      "market_prob": 0.565,
+      "model_prob": 0.52,
+      "edge_pct": 4.5
     },
     {
-      "event": "Next French Presidential Election",
-      "question": "Will Éric Zemmour win the 2027 French presidential election?",
-      "market_prob": 0.003,
-      "model_prob": 0.05,
+      "event": "Bills vs. Vikings",
+      "question": "Spread: Bills (-2.5)",
+      "market_prob": 0.545,
+      "model_prob": 0.501,
+      "edge_pct": 4.4
+    },
+    {
+      "event": "Bills vs. Vikings",
+      "question": "Spread: Bills (-3.5)",
+      "market_prob": 0.445,
+      "model_prob": 0.498,
+      "edge_pct": 5.3
+    },
+    {
+      "event": "Bills vs. Vikings",
+      "question": "Spread: Bills (-4.5)",
+      "market_prob": 0.41,
+      "model_prob": 0.459,
+      "edge_pct": 4.9
+    },
+    {
+      "event": "Bills vs. Vikings",
+      "question": "Spread: Bills (-5.5)",
+      "market_prob": 0.395,
+      "model_prob": 0.442,
       "edge_pct": 4.7
-    },
-    {
-      "event": "Next French Presidential Election",
-      "question": "Will Édouard Philippe win the 2027 French presidential election?",
-      "market_prob": 0.075,
-      "model_prob": 0.084,
-      "edge_pct": 0.9
-    },
-    {
-      "event": "Next French Presidential Election",
-      "question": "Will David Lisnard win the 2027 French presidential election?",
-      "market_prob": 0.1165,
-      "model_prob": 0.13,
-      "edge_pct": 1.35
-    },
-    {
-      "event": "Next French Presidential Election",
-      "question": "Will Xavier Bertrand win the 2027 French presidential election?",
-      "market_prob": 0.0005,
-      "model_prob": 0.05,
-      "edge_pct": 4.95
     }
   ]
 }
