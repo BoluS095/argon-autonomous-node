@@ -1,8 +1,8 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-10T09:29:34.998664+00:00",
+  "timestamp": "2026-11-10T17:35:36.880307+00:00",
   "total_active_bounties": 12,
-  "total_escrow_usd": 15950.0,
+  "total_escrow_usd": 16280.0,
   "bounties": [
     {
       "id": 6147485181,
@@ -11,6 +11,14 @@
       "payout_usd": 10000.0,
       "url": "https://github.com/Trauma-Station/Trauma-Station/issues/5225",
       "updated_at": "2026-11-07T18:05:11Z"
+    },
+    {
+      "id": 5888709112,
+      "repo": "SecureBananaLabs/bug-bounty",
+      "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
+      "payout_usd": 780.0,
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13331",
+      "updated_at": "2026-10-17T21:49:26Z"
     },
     {
       "id": 6131350727,
@@ -61,14 +69,6 @@
       "updated_at": "2026-11-02T12:46:35Z"
     },
     {
-      "id": 6294822260,
-      "repo": "IES-BoilerRoom/cuda-warp-allreduce-verifier",
-      "title": "💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reass",
-      "payout_usd": 450.0,
-      "url": "https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1",
-      "updated_at": "2026-11-10T05:42:23Z"
-    },
-    {
       "id": 6096983816,
       "repo": "alfrexo95/bounty-bot",
       "title": "💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): [Bounty] 💰 Bount",
@@ -103,46 +103,46 @@
   ],
   "polymarket_signals": [
     {
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
+      "market_prob": 0.0025,
+      "model_prob": 0.05,
+      "edge_pct": 4.75
+    },
+    {
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
+      "market_prob": 0.0045,
+      "model_prob": 0.05,
+      "edge_pct": 4.55
+    },
+    {
+      "event": "Fed Decision in December?",
+      "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+      "market_prob": 0.0375,
+      "model_prob": 0.05,
+      "edge_pct": 1.25
+    },
+    {
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+      "market_prob": 0.845,
+      "model_prob": 0.777,
+      "edge_pct": 6.8
+    },
+    {
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
+      "market_prob": 0.1055,
+      "model_prob": 0.118,
+      "edge_pct": 1.25
+    },
+    {
       "event": "Nuggets vs. Rockets",
       "question": "Nuggets vs. Rockets",
       "market_prob": 0.0,
       "model_prob": 0.05,
       "edge_pct": 5.0
-    },
-    {
-      "event": "Nuggets vs. Rockets",
-      "question": "Spread: Rockets (-4.5)",
-      "market_prob": 1.0,
-      "model_prob": 0.92,
-      "edge_pct": 8.0
-    },
-    {
-      "event": "Nuggets vs. Rockets",
-      "question": "Nuggets vs. Rockets: O/U 228.5",
-      "market_prob": 0.0,
-      "model_prob": 0.05,
-      "edge_pct": 5.0
-    },
-    {
-      "event": "Nuggets vs. Rockets",
-      "question": "Spread: Rockets (-3.5)",
-      "market_prob": 1.0,
-      "model_prob": 0.92,
-      "edge_pct": 8.0
-    },
-    {
-      "event": "Nuggets vs. Rockets",
-      "question": "Nuggets vs. Rockets: O/U 226.5",
-      "market_prob": 0.0,
-      "model_prob": 0.05,
-      "edge_pct": 5.0
-    },
-    {
-      "event": "Nuggets vs. Rockets",
-      "question": "Spread: Rockets (-5.5)",
-      "market_prob": 1.0,
-      "model_prob": 0.92,
-      "edge_pct": 8.0
     }
   ]
 }
