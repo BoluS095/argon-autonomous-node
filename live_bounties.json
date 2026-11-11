@@ -1,6 +1,6 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-11T13:51:25.838005+00:00",
+  "timestamp": "2026-11-11T21:08:49.176897+00:00",
   "total_active_bounties": 12,
   "total_escrow_usd": 15780.0,
   "bounties": [
@@ -103,46 +103,46 @@
   ],
   "polymarket_signals": [
     {
-      "event": "Fed Decision in December?",
-      "question": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
-      "market_prob": 0.0025,
+      "event": "Next French Presidential Election",
+      "question": "Will Marine Le Pen win the 2027 French presidential election?",
+      "market_prob": 0.4635,
+      "model_prob": 0.519,
+      "edge_pct": 5.55
+    },
+    {
+      "event": "Next French Presidential Election",
+      "question": "Will Jordan Bardella win the 2027 French presidential election?",
+      "market_prob": 0.0175,
       "model_prob": 0.05,
-      "edge_pct": 4.75
+      "edge_pct": 3.25
     },
     {
-      "event": "Fed Decision in December?",
-      "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
-      "market_prob": 0.0035,
+      "event": "Next French Presidential Election",
+      "question": "Will Éric Zemmour win the 2027 French presidential election?",
+      "market_prob": 0.0115,
       "model_prob": 0.05,
-      "edge_pct": 4.65
+      "edge_pct": 3.85
     },
     {
-      "event": "Fed Decision in December?",
-      "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-      "market_prob": 0.037,
+      "event": "Next French Presidential Election",
+      "question": "Will Édouard Philippe win the 2027 French presidential election?",
+      "market_prob": 0.075,
+      "model_prob": 0.084,
+      "edge_pct": 0.9
+    },
+    {
+      "event": "Next French Presidential Election",
+      "question": "Will David Lisnard win the 2027 French presidential election?",
+      "market_prob": 0.1535,
+      "model_prob": 0.172,
+      "edge_pct": 1.85
+    },
+    {
+      "event": "Next French Presidential Election",
+      "question": "Will Xavier Bertrand win the 2027 French presidential election?",
+      "market_prob": 0.0015,
       "model_prob": 0.05,
-      "edge_pct": 1.3
-    },
-    {
-      "event": "Fed Decision in December?",
-      "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-      "market_prob": 0.855,
-      "model_prob": 0.787,
-      "edge_pct": 6.8
-    },
-    {
-      "event": "Fed Decision in December?",
-      "question": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
-      "market_prob": 0.1135,
-      "model_prob": 0.127,
-      "edge_pct": 1.35
-    },
-    {
-      "event": "Fed Decision in January?",
-      "question": "Will the Fed decrease interest rates by 50+ bps after the January 2027 meeting?",
-      "market_prob": 0.0045,
-      "model_prob": 0.05,
-      "edge_pct": 4.55
+      "edge_pct": 4.85
     }
   ]
 }
