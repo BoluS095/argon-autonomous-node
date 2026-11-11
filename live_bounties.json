@@ -1,8 +1,8 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-10T23:00:28.131274+00:00",
+  "timestamp": "2026-11-11T05:29:53.424907+00:00",
   "total_active_bounties": 12,
-  "total_escrow_usd": 16280.0,
+  "total_escrow_usd": 15780.0,
   "bounties": [
     {
       "id": 6147485181,
@@ -10,7 +10,7 @@
       "title": "[BOUNTY] huge important bounty bounty bounty",
       "payout_usd": 10000.0,
       "url": "https://github.com/Trauma-Station/Trauma-Station/issues/5225",
-      "updated_at": "2026-11-07T18:05:11Z"
+      "updated_at": "2026-11-11T01:20:06Z"
     },
     {
       "id": 5888709112,
@@ -53,14 +53,6 @@
       "updated_at": "2026-11-01T19:34:35Z"
     },
     {
-      "id": 6143632299,
-      "repo": "alfrexo95/bounty-bot",
-      "title": "💰 Bounty Seguro ($$750): 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ",
-      "payout_usd": 750.0,
-      "url": "https://github.com/alfrexo95/bounty-bot/issues/73",
-      "updated_at": "2026-11-02T12:46:35Z"
-    },
-    {
       "id": 6169462628,
       "repo": "zhangjiayang6835-cyber/bounty-plaza",
       "title": "[Bounty] 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): 💰 Bounty Seguro ",
@@ -93,6 +85,14 @@
       "updated_at": "2026-11-02T06:39:56Z"
     },
     {
+      "id": 6091672069,
+      "repo": "zhangjiayang6835-cyber/bounty-plaza",
+      "title": "[Bounty] 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro ",
+      "payout_usd": 250.0,
+      "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171",
+      "updated_at": "2026-11-10T22:41:59Z"
+    },
+    {
       "id": 5908234811,
       "repo": "limitlessprojects/Go-Hybrid",
       "title": "[wildcard] Make FFI claims proof-carrying: verify boundary contracts against the linked Ru",
@@ -119,9 +119,9 @@
     {
       "event": "Fed Decision in December?",
       "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-      "market_prob": 0.0355,
+      "market_prob": 0.0365,
       "model_prob": 0.05,
-      "edge_pct": 1.45
+      "edge_pct": 1.35
     },
     {
       "event": "Fed Decision in December?",
@@ -133,16 +133,16 @@
     {
       "event": "Fed Decision in December?",
       "question": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
-      "market_prob": 0.1075,
-      "model_prob": 0.12,
-      "edge_pct": 1.25
+      "market_prob": 0.11,
+      "model_prob": 0.123,
+      "edge_pct": 1.3
     },
     {
-      "event": "Nuggets vs. Rockets",
-      "question": "Nuggets vs. Rockets",
-      "market_prob": 0.0,
-      "model_prob": 0.05,
-      "edge_pct": 5.0
+      "event": "Heat vs. Jazz",
+      "question": "Heat vs. Jazz",
+      "market_prob": 1.0,
+      "model_prob": 0.92,
+      "edge_pct": 8.0
     }
   ]
 }
