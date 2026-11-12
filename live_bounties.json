@@ -1,6 +1,6 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-12T12:23:37.548654+00:00",
+  "timestamp": "2026-11-12T21:22:58.053242+00:00",
   "total_active_bounties": 12,
   "total_escrow_usd": 16280.0,
   "bounties": [
@@ -103,46 +103,46 @@
   ],
   "polymarket_signals": [
     {
-      "event": "Jensen Huang announced resignation or removal by...?",
-      "question": "Jensen Huang announced resignation or removal by December 31, 2026?",
-      "market_prob": 0.775,
-      "model_prob": 0.713,
-      "edge_pct": 6.2
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
+      "market_prob": 0.0015,
+      "model_prob": 0.05,
+      "edge_pct": 4.85
     },
     {
-      "event": "Jensen Huang announced resignation or removal by...?",
-      "question": "Jensen Huang announced resignation or removal by March 31, 2027?",
-      "market_prob": 0.825,
-      "model_prob": 0.759,
-      "edge_pct": 6.6
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
+      "market_prob": 0.0035,
+      "model_prob": 0.05,
+      "edge_pct": 4.65
     },
     {
-      "event": "Jensen Huang announced resignation or removal by...?",
-      "question": "Jensen Huang announced resignation or removal by December 31, 2027?",
-      "market_prob": 0.84,
-      "model_prob": 0.773,
-      "edge_pct": 6.7
+      "event": "Fed Decision in December?",
+      "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+      "market_prob": 0.0155,
+      "model_prob": 0.05,
+      "edge_pct": 3.45
     },
     {
-      "event": "Jensen Huang announced resignation or removal by...?",
-      "question": "Jensen Huang announced resignation or removal by November 13, 2026?",
-      "market_prob": 0.535,
-      "model_prob": 0.492,
-      "edge_pct": 4.3
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+      "market_prob": 0.875,
+      "model_prob": 0.805,
+      "edge_pct": 7.0
     },
     {
-      "event": "Jensen Huang announced resignation or removal by...?",
-      "question": "Jensen Huang announced resignation or removal by November 30, 2026?",
-      "market_prob": 0.715,
-      "model_prob": 0.658,
-      "edge_pct": 5.7
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
+      "market_prob": 0.1025,
+      "model_prob": 0.115,
+      "edge_pct": 1.25
     },
     {
-      "event": "Jensen Huang announced resignation or removal by...?",
-      "question": "Jensen Huang announced resignation or removal by November 12, 2026?",
-      "market_prob": 0.435,
-      "model_prob": 0.487,
-      "edge_pct": 5.2
+      "event": "Buffalo vs. Ball State",
+      "question": "Buffalo vs. Ball State",
+      "market_prob": 1.0,
+      "model_prob": 0.92,
+      "edge_pct": 8.0
     }
   ]
 }

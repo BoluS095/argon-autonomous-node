@@ -1,5 +1,5 @@
 # 💎 LIVE ESCROW BOUNTY RADAR — $16,280.00 USD AVAILABLE
-**Last Sync:** `2026-11-12T12:23:37.548654+00:00` | **Active Bounties:** `12` | **Node:** `BoluS095/argon-autonomous-node`
+**Last Sync:** `2026-11-12T21:22:58.053242+00:00` | **Active Bounties:** `12` | **Node:** `BoluS095/argon-autonomous-node`
 
 | Repo & Issue | Payout (USD) | Escrow Link |
 | :--- | :--- | :--- |
@@ -19,9 +19,9 @@
 ## 📈 Polymarket Quant Alpha Feed ($0.10 USDC / x402)
 | Event / Question | Market Prob | Model Prob | Edge |
 | :--- | :--- | :--- | :--- |
-| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by December 31, 2026?* | 77.5% | 71.3% | +6.2% |
-| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by March 31, 2027?* | 82.5% | 75.9% | +6.6% |
-| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by December 31, 2027?* | 84.0% | 77.3% | +6.7% |
-| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by November 13, 2026?* | 53.5% | 49.2% | +4.3% |
-| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by November 30, 2026?* | 71.5% | 65.8% | +5.7% |
-| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by November 12, 2026?* | 43.5% | 48.7% | +5.2% |
+| Fed Decision in December? — *Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?* | 0.1% | 5.0% | +4.8% |
+| Fed Decision in December? — *Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?* | 0.4% | 5.0% | +4.7% |
+| Fed Decision in December? — *Will there be no change in Fed interest rates after the December 2026 meeting?* | 1.6% | 5.0% | +3.5% |
+| Fed Decision in December? — *Will the Fed increase interest rates by 25 bps after the December 2026 meeting?* | 87.5% | 80.5% | +7.0% |
+| Fed Decision in December? — *Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?* | 10.2% | 11.5% | +1.2% |
+| Buffalo vs. Ball State — *Buffalo vs. Ball State* | 100.0% | 92.0% | +8.0% |
