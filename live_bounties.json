@@ -1,8 +1,8 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-12T02:46:34.378745+00:00",
+  "timestamp": "2026-11-12T12:23:37.548654+00:00",
   "total_active_bounties": 12,
-  "total_escrow_usd": 15780.0,
+  "total_escrow_usd": 16280.0,
   "bounties": [
     {
       "id": 6147485181,
@@ -61,6 +61,14 @@
       "updated_at": "2026-11-02T12:46:35Z"
     },
     {
+      "id": 6147167388,
+      "repo": "alfrexo95/bounty-bot",
+      "title": "💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): 💰 Bounty Seguro ",
+      "payout_usd": 750.0,
+      "url": "https://github.com/alfrexo95/bounty-bot/issues/74",
+      "updated_at": "2026-11-01T13:04:47Z"
+    },
+    {
       "id": 6096983816,
       "repo": "alfrexo95/bounty-bot",
       "title": "💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): [Bounty] 💰 Bount",
@@ -85,14 +93,6 @@
       "updated_at": "2026-11-02T06:39:56Z"
     },
     {
-      "id": 6091672069,
-      "repo": "zhangjiayang6835-cyber/bounty-plaza",
-      "title": "[Bounty] 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro ",
-      "payout_usd": 250.0,
-      "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171",
-      "updated_at": "2026-11-10T22:41:59Z"
-    },
-    {
       "id": 5908234811,
       "repo": "limitlessprojects/Go-Hybrid",
       "title": "[wildcard] Make FFI claims proof-carrying: verify boundary contracts against the linked Ru",
@@ -105,44 +105,44 @@
     {
       "event": "Jensen Huang announced resignation or removal by...?",
       "question": "Jensen Huang announced resignation or removal by December 31, 2026?",
-      "market_prob": 0.905,
-      "model_prob": 0.833,
-      "edge_pct": 7.2
+      "market_prob": 0.775,
+      "model_prob": 0.713,
+      "edge_pct": 6.2
     },
     {
       "event": "Jensen Huang announced resignation or removal by...?",
       "question": "Jensen Huang announced resignation or removal by March 31, 2027?",
-      "market_prob": 0.91,
-      "model_prob": 0.837,
-      "edge_pct": 7.3
-    },
-    {
-      "event": "Jensen Huang announced resignation or removal by...?",
-      "question": "Jensen Huang announced resignation or removal by December 31, 2027?",
-      "market_prob": 0.93,
-      "model_prob": 0.856,
-      "edge_pct": 7.4
-    },
-    {
-      "event": "Jensen Huang announced resignation or removal by...?",
-      "question": "Jensen Huang announced resignation or removal by November 13, 2026?",
       "market_prob": 0.825,
       "model_prob": 0.759,
       "edge_pct": 6.6
     },
     {
       "event": "Jensen Huang announced resignation or removal by...?",
+      "question": "Jensen Huang announced resignation or removal by December 31, 2027?",
+      "market_prob": 0.84,
+      "model_prob": 0.773,
+      "edge_pct": 6.7
+    },
+    {
+      "event": "Jensen Huang announced resignation or removal by...?",
+      "question": "Jensen Huang announced resignation or removal by November 13, 2026?",
+      "market_prob": 0.535,
+      "model_prob": 0.492,
+      "edge_pct": 4.3
+    },
+    {
+      "event": "Jensen Huang announced resignation or removal by...?",
       "question": "Jensen Huang announced resignation or removal by November 30, 2026?",
-      "market_prob": 0.895,
-      "model_prob": 0.823,
-      "edge_pct": 7.2
+      "market_prob": 0.715,
+      "model_prob": 0.658,
+      "edge_pct": 5.7
     },
     {
       "event": "Jensen Huang announced resignation or removal by...?",
       "question": "Jensen Huang announced resignation or removal by November 12, 2026?",
-      "market_prob": 0.77,
-      "model_prob": 0.708,
-      "edge_pct": 6.2
+      "market_prob": 0.435,
+      "model_prob": 0.487,
+      "edge_pct": 5.2
     }
   ]
 }
