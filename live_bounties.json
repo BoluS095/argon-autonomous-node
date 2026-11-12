@@ -1,6 +1,6 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-11T21:08:49.176897+00:00",
+  "timestamp": "2026-11-12T02:46:34.378745+00:00",
   "total_active_bounties": 12,
   "total_escrow_usd": 15780.0,
   "bounties": [
@@ -103,46 +103,46 @@
   ],
   "polymarket_signals": [
     {
-      "event": "Next French Presidential Election",
-      "question": "Will Marine Le Pen win the 2027 French presidential election?",
-      "market_prob": 0.4635,
-      "model_prob": 0.519,
-      "edge_pct": 5.55
+      "event": "Jensen Huang announced resignation or removal by...?",
+      "question": "Jensen Huang announced resignation or removal by December 31, 2026?",
+      "market_prob": 0.905,
+      "model_prob": 0.833,
+      "edge_pct": 7.2
     },
     {
-      "event": "Next French Presidential Election",
-      "question": "Will Jordan Bardella win the 2027 French presidential election?",
-      "market_prob": 0.0175,
-      "model_prob": 0.05,
-      "edge_pct": 3.25
+      "event": "Jensen Huang announced resignation or removal by...?",
+      "question": "Jensen Huang announced resignation or removal by March 31, 2027?",
+      "market_prob": 0.91,
+      "model_prob": 0.837,
+      "edge_pct": 7.3
     },
     {
-      "event": "Next French Presidential Election",
-      "question": "Will Éric Zemmour win the 2027 French presidential election?",
-      "market_prob": 0.0115,
-      "model_prob": 0.05,
-      "edge_pct": 3.85
+      "event": "Jensen Huang announced resignation or removal by...?",
+      "question": "Jensen Huang announced resignation or removal by December 31, 2027?",
+      "market_prob": 0.93,
+      "model_prob": 0.856,
+      "edge_pct": 7.4
     },
     {
-      "event": "Next French Presidential Election",
-      "question": "Will Édouard Philippe win the 2027 French presidential election?",
-      "market_prob": 0.075,
-      "model_prob": 0.084,
-      "edge_pct": 0.9
+      "event": "Jensen Huang announced resignation or removal by...?",
+      "question": "Jensen Huang announced resignation or removal by November 13, 2026?",
+      "market_prob": 0.825,
+      "model_prob": 0.759,
+      "edge_pct": 6.6
     },
     {
-      "event": "Next French Presidential Election",
-      "question": "Will David Lisnard win the 2027 French presidential election?",
-      "market_prob": 0.1535,
-      "model_prob": 0.172,
-      "edge_pct": 1.85
+      "event": "Jensen Huang announced resignation or removal by...?",
+      "question": "Jensen Huang announced resignation or removal by November 30, 2026?",
+      "market_prob": 0.895,
+      "model_prob": 0.823,
+      "edge_pct": 7.2
     },
     {
-      "event": "Next French Presidential Election",
-      "question": "Will Xavier Bertrand win the 2027 French presidential election?",
-      "market_prob": 0.0015,
-      "model_prob": 0.05,
-      "edge_pct": 4.85
+      "event": "Jensen Huang announced resignation or removal by...?",
+      "question": "Jensen Huang announced resignation or removal by November 12, 2026?",
+      "market_prob": 0.77,
+      "model_prob": 0.708,
+      "edge_pct": 6.2
     }
   ]
 }

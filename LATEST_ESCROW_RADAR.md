@@ -1,5 +1,5 @@
 # 💎 LIVE ESCROW BOUNTY RADAR — $15,780.00 USD AVAILABLE
-**Last Sync:** `2026-11-11T21:08:49.176897+00:00` | **Active Bounties:** `12` | **Node:** `BoluS095/argon-autonomous-node`
+**Last Sync:** `2026-11-12T02:46:34.378745+00:00` | **Active Bounties:** `12` | **Node:** `BoluS095/argon-autonomous-node`
 
 | Repo & Issue | Payout (USD) | Escrow Link |
 | :--- | :--- | :--- |
@@ -19,9 +19,9 @@
 ## 📈 Polymarket Quant Alpha Feed ($0.10 USDC / x402)
 | Event / Question | Market Prob | Model Prob | Edge |
 | :--- | :--- | :--- | :--- |
-| Next French Presidential Election — *Will Marine Le Pen win the 2027 French presidential election?* | 46.4% | 51.9% | +5.5% |
-| Next French Presidential Election — *Will Jordan Bardella win the 2027 French presidential election?* | 1.8% | 5.0% | +3.2% |
-| Next French Presidential Election — *Will Éric Zemmour win the 2027 French presidential election?* | 1.1% | 5.0% | +3.9% |
-| Next French Presidential Election — *Will Édouard Philippe win the 2027 French presidential election?* | 7.5% | 8.4% | +0.9% |
-| Next French Presidential Election — *Will David Lisnard win the 2027 French presidential election?* | 15.3% | 17.2% | +1.9% |
-| Next French Presidential Election — *Will Xavier Bertrand win the 2027 French presidential election?* | 0.1% | 5.0% | +4.8% |
+| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by December 31, 2026?* | 90.5% | 83.3% | +7.2% |
+| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by March 31, 2027?* | 91.0% | 83.7% | +7.3% |
+| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by December 31, 2027?* | 93.0% | 85.6% | +7.4% |
+| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by November 13, 2026?* | 82.5% | 75.9% | +6.6% |
+| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by November 30, 2026?* | 89.5% | 82.3% | +7.2% |
+| Jensen Huang announced resignation or removal by...? — *Jensen Huang announced resignation or removal by November 12, 2026?* | 77.0% | 70.8% | +6.2% |
