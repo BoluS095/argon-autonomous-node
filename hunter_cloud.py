@@ -24,12 +24,12 @@ SEARCH_QUERIES = [
 # This is still an advertised-text hint, not proof of escrow or payment.
 REWARD_PATTERNS = (
     re.compile(
-        r"\b(?:bounty|reward|prize|payment)\b[^\n]{0,80}?\2\s*"
+        r"\b(?:bounty|reward|prize|payment)\b[^\n]{0,80}?[$]{1,2}\s*"
         r"([0-9][0-9,]*(?:\.[0-9]{1,2})?)",
         re.IGNORECASE,
     ),
     re.compile(
-        r"\2\s*([0-9][0-9,]*(?:\.[0-9]{1,2})?)[^\n]{0,40}"
+        r"[$]{1,2}\s*([0-9][0-9,]*(?:\.[0-9]{1,2})?)[^\n]{0,40}"
         r"\b(?:bounty|reward|prize)\b",
         re.IGNORECASE,
     ),
