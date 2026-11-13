@@ -1,5 +1,5 @@
 # 💎 LIVE ESCROW BOUNTY RADAR — $16,280.00 USD AVAILABLE
-**Last Sync:** `2026-11-13T02:28:55.414798+00:00` | **Active Bounties:** `12` | **Node:** `BoluS095/argon-autonomous-node`
+**Last Sync:** `2026-11-13T11:59:01.346383+00:00` | **Active Bounties:** `12` | **Node:** `BoluS095/argon-autonomous-node`
 
 | Repo & Issue | Payout (USD) | Escrow Link |
 | :--- | :--- | :--- |
@@ -19,9 +19,9 @@
 ## 📈 Polymarket Quant Alpha Feed ($0.10 USDC / x402)
 | Event / Question | Market Prob | Model Prob | Edge |
 | :--- | :--- | :--- | :--- |
-| Commanders vs. Giants — *Commanders vs. Giants* | 48.5% | 54.3% | +5.8% |
-| Commanders vs. Giants — *Spread: Commanders (-1.5)* | 46.5% | 52.1% | +5.6% |
-| Commanders vs. Giants — *Spread: Commanders (-2.5)* | 43.5% | 48.7% | +5.2% |
-| Commanders vs. Giants — *Spread: Commanders (-3.5)* | 32.5% | 36.4% | +3.9% |
-| Commanders vs. Giants — *Spread: Commanders (-4.5)* | 31.5% | 35.3% | +3.8% |
-| Commanders vs. Giants — *Spread: Commanders (-5.5)* | 26.5% | 29.7% | +3.2% |
+| Fed Decision in December? — *Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?* | 0.2% | 5.0% | +4.8% |
+| Fed Decision in December? — *Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?* | 0.7% | 5.0% | +4.3% |
+| Fed Decision in December? — *Will there be no change in Fed interest rates after the December 2026 meeting?* | 2.5% | 5.0% | +2.5% |
+| Fed Decision in December? — *Will the Fed increase interest rates by 25 bps after the December 2026 meeting?* | 88.5% | 81.4% | +7.1% |
+| Fed Decision in December? — *Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?* | 9.2% | 10.2% | +1.1% |
+| Counter-Strike: G2 vs Team Falcons (BO3) - BLAST Rivals Play — *Counter-Strike: G2 vs Team Falcons - Map 1 Winner* | 67.5% | 62.1% | +5.4% |

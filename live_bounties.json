@@ -1,6 +1,6 @@
 {
   "node": "BoluS095/argon-autonomous-node",
-  "timestamp": "2026-11-13T02:28:55.414798+00:00",
+  "timestamp": "2026-11-13T11:59:01.346383+00:00",
   "total_active_bounties": 12,
   "total_escrow_usd": 16280.0,
   "bounties": [
@@ -103,46 +103,46 @@
   ],
   "polymarket_signals": [
     {
-      "event": "Commanders vs. Giants",
-      "question": "Commanders vs. Giants",
-      "market_prob": 0.485,
-      "model_prob": 0.543,
-      "edge_pct": 5.8
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
+      "market_prob": 0.0025,
+      "model_prob": 0.05,
+      "edge_pct": 4.75
     },
     {
-      "event": "Commanders vs. Giants",
-      "question": "Spread: Commanders (-1.5)",
-      "market_prob": 0.465,
-      "model_prob": 0.521,
-      "edge_pct": 5.6
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
+      "market_prob": 0.0065,
+      "model_prob": 0.05,
+      "edge_pct": 4.35
     },
     {
-      "event": "Commanders vs. Giants",
-      "question": "Spread: Commanders (-2.5)",
-      "market_prob": 0.435,
-      "model_prob": 0.487,
-      "edge_pct": 5.2
+      "event": "Fed Decision in December?",
+      "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+      "market_prob": 0.0255,
+      "model_prob": 0.05,
+      "edge_pct": 2.45
     },
     {
-      "event": "Commanders vs. Giants",
-      "question": "Spread: Commanders (-3.5)",
-      "market_prob": 0.325,
-      "model_prob": 0.364,
-      "edge_pct": 3.9
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+      "market_prob": 0.885,
+      "model_prob": 0.814,
+      "edge_pct": 7.1
     },
     {
-      "event": "Commanders vs. Giants",
-      "question": "Spread: Commanders (-4.5)",
-      "market_prob": 0.315,
-      "model_prob": 0.353,
-      "edge_pct": 3.8
+      "event": "Fed Decision in December?",
+      "question": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
+      "market_prob": 0.0915,
+      "model_prob": 0.102,
+      "edge_pct": 1.05
     },
     {
-      "event": "Commanders vs. Giants",
-      "question": "Spread: Commanders (-5.5)",
-      "market_prob": 0.265,
-      "model_prob": 0.297,
-      "edge_pct": 3.2
+      "event": "Counter-Strike: G2 vs Team Falcons (BO3) - BLAST Rivals Play",
+      "question": "Counter-Strike: G2 vs Team Falcons - Map 1 Winner",
+      "market_prob": 0.675,
+      "model_prob": 0.621,
+      "edge_pct": 5.4
     }
   ]
 }
