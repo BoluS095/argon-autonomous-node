@@ -1,58 +1,46 @@
-# ⚡ ARGON AUTONOMOUS REVENUE NODE (24/7 CLOUD & LOCAL SWARM)
+# Argon Public Candidate Radar
 
-[![Autonomous 24/7 Escrow & Alpha Hunter](https://github.com/BoluS095/argon-autonomous-node/actions/workflows/autonomous_revenue_hunter.yml/badge.svg)](https://github.com/BoluS095/argon-autonomous-node/actions/workflows/autonomous_revenue_hunter.yml)
-[![Node Status](https://img.shields.io/badge/Status-100%25%20LIVE%2024%2F7-brightgreen.svg)](https://github.com/BoluS095/argon-autonomous-node)
-[![Network](https://img.shields.io/badge/Base%20L2-USDC%20Ready-blue.svg)](https://basescan.org/address/0xE5bB45Dc9Bc875B7b6b13551FdAA5E2d9F28455D)
+[![Scheduled scan](https://github.com/BoluS095/argon-autonomous-node/actions/workflows/autonomous_revenue_hunter.yml/badge.svg)](https://github.com/BoluS095/argon-autonomous-node/actions/workflows/autonomous_revenue_hunter.yml)
 
-> **Sovereign Autonomous Node Operator:** [@BoluS095](https://github.com/BoluS095) (Rafał Korzeniowski)  
-> **Infrastructure:** Hybrid Local Edge Node (DESKTOP-B5DLPIE) + GitHub Actions 24/7 Cloud Workers  
-> **Capital Deployed:** $0.00 Initial Capital | **Zero-Friction Inbound & Escrow Model**
+A small Python research utility that periodically collects public GitHub issue mentions that may describe bounties and snapshots displayed prices from active Polymarket markets.
 
----
+## What it currently does
 
-## 🎯 Architecture & Live Autonomous Revenue Channels
+- Searches public GitHub issues using a small set of text queries.
+- Extracts an advertised amount only when it appears near explicit bounty/reward language.
+- Records candidate issue URLs and update timestamps for manual review.
+- Reads displayed probabilities from selected public Polymarket markets.
+- Publishes a Markdown run summary and JSON/Markdown artifacts from GitHub Actions.
 
-```mermaid
-flowchart LR
-    GH_Cloud["☁️ GitHub Actions 24/7 Cloud Worker\n(Scheduled every 2h)"] -->|Scans & Harvests| Radar["💎 Escrow Bounties ($1,800+ USD)"]
-    Local_Edge["🖥️ Local PC Swarm 24/7\n(6 Autonomous Agents + Ollama)"] -->|Code Solutions & Pytest 100%| PRs["🚀 Verified Pull Requests"]
-    PRs -->|Maintainer Merges| Cash["💰 Direct Stripe / Escrow Payouts"]
+## Important limitations
 
-    Local_Edge -->|Public SaaS Storefront| Store["📦 152 Digital Products (/store)"]
-    Local_Edge -->|Quant Alpha Feed| Poly["📈 Polymarket Kelly Feed ($0.10 USDC)"]
-    Local_Edge -->|Dual E-Commerce| Shopify["🛍️ Aura Nova + Aura Nordic Studio"]
+- **No funding verification:** an amount found in issue text is not proof of escrow, an active offer, eligibility, acceptance, or payment.
+- **No revenue claim:** candidate mentions must be checked manually with the project maintainer and the funding provider.
+- **No predictive model:** Polymarket values are displayed market observations. This project does not calculate fair value, alpha, Kelly sizing, or trading recommendations.
+- **No trading or payment actions:** the collector does not place orders, move funds, claim bounties, comment on issues, or submit pull requests.
+- Search results may include duplicates across separate issues, stale information, or misleading posts. Manual due diligence is required.
 
-    style GH_Cloud fill:#0f172a,stroke:#38bdf8,color:#fff
-    style Local_Edge fill:#14532d,stroke:#22c55e,color:#fff
-    style Cash fill:#78350f,stroke:#f59e0b,color:#fff
+## Run locally
+
+Requires Python 3.10+ and the standard library only.
+
+```bash
+git clone https://github.com/BoluS095/argon-autonomous-node.git
+cd argon-autonomous-node
+python -m unittest discover -s tests -v
+python hunter_cloud.py
 ```
 
-### 1. 💎 GitHub & Algora Escrow Bounties
-- Continuously searches open GitHub issues with pre-funded cash bounties ($50–$750+ USD).
-- Automatically generates code fixes, exhaustive `pytest` suites, and formatted `PULL_REQUEST.md` packages.
-- Real-time catalog view: see [LATEST_ESCROW_RADAR.md](LATEST_ESCROW_RADAR.md) and [live_bounties.json](live_bounties.json).
+An optional `GITHUB_TOKEN` environment variable can increase the GitHub API rate limit. It is read from the environment and is not written to the report.
 
-### 2. ⚡ Live Public SaaS Storefront & AEO Scanner
-- **Live Endpoint:** [Cloudflare SaaS Storefront](https://intervention-estate-photographer-correction.trycloudflare.com/store)
-- Features instant 1-click AEO & `llms.txt` diagnostic scanner with automated unlock tiers ($9, $25, $79 USD).
+## GitHub Actions
 
-### 3. 🛍️ Autonomous E-Commerce Swarm
-- **AURA NOVA:** Minimalist high-tech essentials (`https://z03cia-1r.myshopify.com/`).
-- **AURA NORDIC STUDIO:** Scandinavian workspace design & accessories (`https://1fztmz-p2.myshopify.com/`).
-- Direct bank settlement via SpareBank 1 Norway (IBAN: `NO4433352975694`).
+The workflow runs on a two-hour schedule and can also be started manually. Each run writes a summary and uploads a 14-day JSON/Markdown artifact. It uses read-only repository and issue permissions and does not commit generated reports back to the default branch, so scheduled runs do not create artificial contribution activity.
 
-### 4. 📈 Polymarket Quant Alpha Feed (x402 Protocol)
-- Gamma API mispricing scanner calculating Fractional Kelly Criterion edges.
-- Machine-to-machine microrate payments ($0.10 USDC) via Base L2 wallet `0xE5bB45Dc9Bc875B7b6b13551FdAA5E2d9F28455D`.
+## Security
 
----
+Never commit API tokens, private keys, bank details, wallet recovery material, or local-machine identifiers. Use GitHub Actions secrets or local environment variables for credentials. Report suspected credential exposure promptly and rotate actual credentials if they have been exposed.
 
-## 🛠️ Verification & Telemetry
+## License
 
-- **CI/CD Health:** Automatically runs test suites via GitHub Actions workflow.
-- **Self-Healing:** Built-in supervisor restarts services and maintains cloudflared reverse tunnels.
-- **Documentation:** Full architectural reports in [RAPORT_WDROZENIA_AUTONOMICZNEGO_BIZNESU_24_7.md](https://github.com/BoluS095/argon-autonomous-node).
-
----
-*Maintained autonomously by Argon-Zero v7.0 & BoluS095.*
-
+No license file is currently present. Until an explicit license is added, do not assume this repository grants permission to reuse, modify, or redistribute its code.

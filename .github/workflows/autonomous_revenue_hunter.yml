@@ -1,21 +1,25 @@
-name: Autonomous 24/7 Escrow & Alpha Hunter
+name: Public candidate radar
 
 'on':
   schedule:
     - cron: '0 */2 * * *'
   workflow_dispatch: {}
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
 
 permissions:
-  contents: write
+  contents: read
+  issues: read
 
 jobs:
-  hunt:
+  collect:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -23,15 +27,20 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run Cloud Bounty & Alpha Hunter
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect public candidates and market observations
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python hunter_cloud.py
+        run: python hunter_cloud.py
 
-      - name: Commit & Push Updated Radar
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action [Argon-Autonomous]"
-          git add live_bounties.json LATEST_ESCROW_RADAR.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(radar): automated 24/7 bounty & alpha harvest [skip ci]" && git pull --rebase origin main && git push)
+      - name: Upload scan snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: candidate-radar-${{ github.run_id }}
+          path: |
+            live_bounties.json
+            LATEST_ESCROW_RADAR.md
+          if-no-files-found: error
+          retention-days: 14
